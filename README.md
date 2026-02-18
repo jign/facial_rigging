@@ -6,12 +6,12 @@ For demo purposes only. Requires PyMel.
 
 ## Python Utils (guides and UI)
 
-Add the following paths to maya
+Add the following paths to maya, for example in `userSetup.py`
 
 ```
-sys.path.append(r"D:\piper\_lib\maya")
-sys.path.append(r"D:\vitruvian\prj\face_rigger\src\face_pose_ui")
-sys.path.append(r"D:\vitruvian\prj\face_rigger\src\face_jnt_guides")
+sys.path.append(r"{root_folder}\src\_lib\maya")
+sys.path.append(r"{root_folder}\src\face_pose_ui")
+sys.path.append(r"{root_folder}\src\face_jnt_guides")
 ```
 
 Open `startup.py` for the Face Pose UI and Joint Guides tools and change this line to wherever you saved the tools if you want hot reload to work.
