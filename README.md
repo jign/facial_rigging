@@ -118,7 +118,7 @@ Select the head and load `head_skin.jSkin`.
 
 Try playing around with the sliders in the face controls. Now it's a good time to inspect the node graph, etc.
 
-Let's add a pose. Please watch `create_new_pose` and `mirror_pose` before proceeding.
+Let's add a pose. Please watch `create_new_pose` and `mirror_pose` before proceeding. Please be aware that right now the driver assumes poses go from either -10 to 10 or from 0 to 10 for normalizaton.
 
 Select `l_cheek_ctrl` and click on the + button. Then click on Load Driven Objects and select on the scene the locators that you want to drive. Click Load Driven and drag select all of them. Then drag select all attributes. The attributes are hardcoded for now. Click add.
 
